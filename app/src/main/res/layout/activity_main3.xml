@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewFiltros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="24dp"
+        android:gravity="center"
+        android:text="Filtros"
+        android:textColor="#000000"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imageViewRGB3"
+        android:layout_width="match_parent"
+        android:layout_height="351dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="24dp"
+        app:srcCompat="@drawable/precargada" />
+
+    <Button
+        android:id="@+id/btn_canales_rgb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:text="Canales RGB" />
+
+    <Button
+        android:id="@+id/btn_grises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:text="CONVERSION A GRISES" />
+
+    <Button
+        android:id="@+id/btn_binaria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:text="IMAGEN BINARIA" />
+
+    <Button
+        android:id="@+id/btn_seg_colores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:text="SEGMENTACION POR COLORES" />
+
+    <Button
+        android:id="@+id/btn_det_contornos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:text="DETECCION DE CONTORNOS" />
+
+    <Button
+        android:id="@+id/btn_rotate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:text="ROTAR IMAGEN" />
+
+</LinearLayout>
